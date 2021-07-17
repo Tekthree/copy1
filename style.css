@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1vw;
+  color: #230078; 
+  font-family: novecento-sans-wide, sans-serif;
+}
+
+@media only screen and (min-width: 1560px) {
+	body {font-size: 15.6px;}
+}
+
+a{
+  font-size: 2.3em;
+  color: #230078;
+  text-decoration: none;
+  font-family: novecento-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1{
+  font-size: 8.25em;
+  line-height: .8;
+}
+
+h4{
+  font-size: 2.7em;
+}
+
+h6{
+  font-size: 2.3em;
+}
+
+p{
+  font-size: 2.04em;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+  a {font-size: 12.48px;}
+  p {font-size: 12.48px;}
+}
+
+
+.sec-tan{
+  background-color: #FDF4E6;
+}
+
+.logo-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height: 5em;
+  margin-right: .7em;
+}
+
+.hero-p{
+  margin: 1em auto;
+}
+
+header{
+  background-color: #FDF4E6;
+}
+
+
+
+.nav__super{
+  padding-top: 0.17rem;
+  padding-bottom: 0.17rem;
+  color: #FDF4E6;
+  background-color: #230078;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav__super__p{
+  margin-right: 25pt;
+}
+
+.light-link{
+  color: #FDF4E6;
+  text-decoration: underline;
+  display: inline;
+}
+
+.nav{
+  width: 1560px;
+  margin: auto;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 3em 2em 3em;
+}
+
+.nav-links{
+  padding-right: .7em;
+}
+
+
+.nav-links-center{
+  padding-right: .7em;
+}
+
+.nav-right-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.right-button{
+  padding: .9em 3em;
+  border-radius: 50vh;
+  background-color: #230078;
+  color: #FDF4E6;
+}
+
+.hero{
+  text-align: center;
+  margin-top: 13em;
+  width: 74em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 6em;
+}
+
+.hero__image-wrapper{
+  width: 100%;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.container{
+  width: 1560px;
+  margin: auto;
+  max-width: 100%;
+  padding: 4.43em 6.25em 4.43em 6.25em;
+}
+
